@@ -1,0 +1,86 @@
+.accueil-intro {
+    background-image: url('/images/novotel1.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.accueil-intro h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: white;
+}
+
+.accueil-intro a {
+    background-color: rgb(240, 199, 20);
+    padding: 20px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.accueil-present1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.accueil-present2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.accueil-present2 div {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    gap: 20px;
+}
+
+.accueil-present2 div div {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.accueil-present2 p{
+    color: rgb(240, 199, 20);
+}
+
+.accueil-present2 a{
+    background-color: rgb(240, 199, 20);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+
+.accueil-present3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.accueil-present3 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
